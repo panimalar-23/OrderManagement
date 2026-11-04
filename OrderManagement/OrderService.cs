@@ -13,5 +13,9 @@ namespace OrderManagement
 
             return total;
         }
+        public double CalculateDiscount(double total)
+        {
+            return total * 0.10;
+        }
     }
 }
